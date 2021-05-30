@@ -1,0 +1,368 @@
+ <!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>motion2hell</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/core-img/favicon.jpeg" type="image/gif" sizes="16x16">
+
+
+
+    
+</head>
+<body>
+<header class="header">
+        <nav class="navbar">
+            <a class="logo" href="./index.html">
+
+                <img class="logo-blanc"  src="img/core-img/Motion2hell-logo.png" alt="Logo NTS Design">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#service">services</a></li>
+                <!-- <li><a href="#">Gallery</a></li> -->
+                <li><a href="#Blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Admin_LogIn</a></li>
+                <!-- <li><a href="#">About</a></li> -->
+                <li><a href="#search"  onclick="openSearch()"><i class="fa fa-search"></i></a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+
+          <div class="galleryContainer">
+    <div class="slideShowContainer">
+        
+        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+        <div class="captionTextHolder"><p class="captionText slideTextFromTop" style="display: block;"></p></div>
+        <div class="imageHolder moveLeftNextSlide" style="opacity: 0;">
+            <img src="img/bg-img/photograher.jpg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder" style="opacity: 0;">
+            <img src="img/bg-img/Developer.jpg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder" style="opacity: 0;">
+            <img src="img/bg-img/coder.jpg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder" style="opacity: 0;">
+            <img src="img/bg-img/tester.jpg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder moveLeftCurrentSlide" style="opacity: 0;">
+            <img src="img/bg-img/coder.jpg">
+            <p class="captionText"></p>
+        </div>
+    </div>
+    <div id="dotsContainer"><span class="dots active" onclick="moveSlide(0)"></span><span class="dots" onclick="moveSlide(1)"></span><span class="dots" onclick="moveSlide(2)"></span><span class="dots" onclick="moveSlide(3)"></span></div>
+    </div>
+        
+<div class='container2'>
+  <p class='typewriter'>I'm a 
+  <span class='typewriter-text' data-text='[ "photographer. ", "designer. ", "developer. ","Android Developer."," Software Tester.","Marketing." ]'></span>
+  </p>
+</div>
+
+<div><p  class="tipsy">Motion2Hell</p></div>
+    </header>
+    
+
+
+    <dir class="container">
+            <section class="team" id="team">
+          
+      <h2 style="text-align:center;font-weight:bold;">Our Team</h2>
+        <div class="row">
+            <div class="col">
+                <div class="our-team">
+                  <a href="./kanhaiya_khansare.html">
+                    <img src="img/bg-img/19.jpg"></a>
+                    <div class="team-content">
+                        <h3 class="title">Kanhaiya Khansare</h3>
+                        <span class="post">Web Developer</span>
+                        <ul class="social">
+                            <li><a href="https://www.linkedin.com/in/kanhaiya-khansare-47a26a102/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://twitter.com/kkhansare"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/kunal.khansare"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/error404_brain_notfound/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://github.com/kunalKCoder"><i class="fa fa-github "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="our-team">
+                    <img src="img/bg-img/20.jpg">
+                    <div class="team-content">
+                        <h3 class="title">Karan Suyawanshi</h3>
+                        <span class="post">Designer</span>
+                          <ul class="social">
+                            <li><a href="https://www.linkedin.com/in/karan-suryavanshi-a8a56011b/"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.facebook.com/motion2hell"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.instagram.com/karansiddharthsuryavanshi/"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="our-team">
+                    <img src="img/bg-img/19.jpg">
+                    <div class="team-content">
+                        <h3 class="title">Arvind Yadav</h3>
+                        <span class="post">Web Designer</span>
+                        <ul class="social">
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-github "></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+       
+    </div>
+</dir>
+
+
+     <section id="service">
+      <dir class="container">
+  <h3 style="text-align:center;font-weight:bold;">Our Services</h3>
+  
+  <div class="services-grid">
+    <div class="service service1">
+      <a >
+        <img class="bar" src="img/bg-img/coder.jpg"  alt="Park">
+      </a>
+      <h4>Web Design</h4>
+      <p>We are India's one of the Best Web Design & Web Development Company in Mumbai, providing best website designing services in mumbai with certified Web Designers, Website Application Developers and SEO Experts.e</p>
+      <a href="#" class="cta">Read More <span class="ti-angle-right"></a>
+    </div>
+
+    <div class="service service2">
+           <a >
+        <img class="bar" src="img/bg-img/photograher.jpg"  alt="Park">
+      </a>
+      <h4>Photographer</h4>
+      <p>A photographer is a professional that focuses on the art of taking photographs with a digital or film camera. Photographers use artificial and/or natural lighting to snap pictures of various people, places and things in a variety of settings.>
+      <a href="#" class="cta">Read More <span class="ti-angle-right"></a>
+    </div>
+
+    <div class="service service3">
+           <a >
+        <img class="bar" src="img/bg-img/tester.jpg"  alt="Park">
+      </a>
+      <h4>Testing & Q.A</h4>
+      <p>Our QA & Testing service reduces the time and effort in testing so that you can exceed beyond your end user’s expectations. Businesses across the globe tend to hire our customized services and have a positive edge of achieving the best level of quality</p>
+      <a href="#" class="cta">Read more <span class="ti-angle-right"></span></a>
+    </div>
+  </div>
+    <div class="services-grid">
+    <div class="service service1">
+      <a >
+        <img class="bar" src="img/bg-img/Developer.jpg"  alt="Park">
+      </a>
+      <h4>Web Development</h4>
+      <p>We  offer   full-stack  software development  services for   both web and mobile.  Our customized  services empowers applications  to  evolve  and  reinvent  processes  enabling  you   to deliver    reliable , stable and faster results . </p> 
+      <a href="#" class="cta">Read More <span class="ti-angle-right"></a>
+    </div>
+
+    <div class="service service2">
+           <a >
+        <img class="bar" src="img/bg-img/marketing.jpg"  alt="Park">
+      </a>
+      <h4>Marketing</h4>
+      <p>Marketing entails product development, market research, product distribution, sales strategy, public relations, and customer support. Marketing is necessary in all stages of a business's selling journey, and it can use numerous platforms, social media channels, and teams.</p>
+      <a href="#" class="cta">Read More <span class="ti-angle-right"></a>
+    </div>
+
+    <div class="service service3">
+           <a >
+        <img class="bar" src="img/bg-img/android.jpg"  alt="Park">
+      </a>
+      <h4>Android & OS</h4>
+      <p>Capabilities across platforms our mobile app development services can be availed to build both customer and enterprise apps. We have a team of knowledgeable developers and creative designers that can implement mobile applications for handheld devices.</p>
+      <a href="#" class="cta">Read more <span class="ti-angle-right"></span></a>
+    </div>
+  </div>
+  </div>
+</section>
+
+      <section class="blog" id="Blog">
+        <h1 style="text-align: center;">Blog News</h1>
+         <div class="blog-card">
+    <div class="meta">
+      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">John Doe</a></li>
+        <li class="date">Aug. 24, 2015</li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Learn</a></li>
+            <li><a href="#">Code</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <h1>Learning to Code</h1>
+      <h2>Opening a door to the future</h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+      <p class="read-more">
+        <a href="#">Read More</a>
+      </p>
+    </div>
+  </div>
+  <div class="blog-card alt">
+    <div class="meta">
+      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-2.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">Jane Doe</a></li>
+        <li class="date">July. 15, 2015</li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Learn</a></li>
+            <li><a href="#">Code</a></li>
+            <li><a href="#">JavaScript</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <h1>Mastering the Language</h1>
+      <h2>Java is not the same as JavaScript</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+      <p class="read-more">
+        <a href="#">Read More</a>
+      </p>
+    </div>
+  </div>
+           <div class="blog-card">
+    <div class="meta">
+      <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
+      <ul class="details">
+        <li class="author"><a href="#">John Doe</a></li>
+        <li class="date">Aug. 24, 2015</li>
+        <li class="tags">
+          <ul>
+            <li><a href="#">Learn</a></li>
+            <li><a href="#">Code</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="description">
+      <h1>Learning to Code</h1>
+      <h2>Opening a door to the future</h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+      <p class="read-more">
+        <a href="#">Read More</a>
+      </p>
+    </div>
+  </div>
+      </section>
+    
+
+    <!-- <div class="container">
+    <div class="innerwrap"> -->
+      
+    
+      
+    
+      <!-- <section class="section1 clearfix">
+
+      </section>
+     -->
+      <section class="section2 clearfix" id="contact">
+                <div class="textcenter">
+          <h1 style="padding-bottom: 15px">Contact Us</h1>
+        </div>
+        <div class="col2 column1 first">
+          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div class="sec2map" style='overflow:hidden;height:500px;width:100%; object-fit: cover;
+    border-radius: 50%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">                  embed google maps             </a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(18.930710,73.021042),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(18.930710,73.021042)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>mumbai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        </div>
+        <div class="col2 column2 last">
+          <div class="sec2innercont">
+            <div class="sec2addr">
+              <p>Dist Raigad Taluka Uran Village Jasai Near Syndicate Bank Pincode 410206</p>
+              <p><span class="collig">Phone :</span>+91-8898693657/+91-8898887276</p>
+              <p><span class="collig">Email :</span> official@motion2hell.com</p>
+              <p><span class="collig">WhatsApp :</span>+91-8898693657/+91-8898887276</p>
+            </div>
+          </div>
+          <div class="sec2contactform">
+            <h3 class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3>
+            <form action="">
+              <div class="clearfix">
+                <input class="col2 first" type="text" placeholder="FirstName">
+                <input class="col2 last" type="text" placeholder="LastName">
+              </div>
+              <div class="clearfix">
+                <input  class="col2 first" type="Email" placeholder="Email">
+                <input class="col2 last" type="text" placeholder="Contact Number">
+              </div>
+              <div class="clearfix">
+                <textarea name="textarea" id="" cols="30" rows="7">Your message here...</textarea>
+              </div>
+              <div class="clearfix"><input type="submit" value="Send"></div>
+            </form>
+          </div>
+
+        </div>
+      </section>
+    
+    <!-- </div>
+  </div> -->
+
+
+      <footer class="footer-distributed">
+       
+          <div class="footer-left">
+       
+          <h3>Motion<span>2Hell</span></h3>
+          <p class="footer-company-name">Motion2Hell &copy; 2020</p>
+          </div>
+       
+
+       
+      <div class="footer-bottom">
+       
+      <!--Facebook-->
+      <div id="social">
+            <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/motion2hell" ></a>
+            <a class="twitterBtn smGlobalBtn" href="#" ></a>
+            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/karan-suryavanshi-a8a56011b/" ></a>
+            <a class="pinterestBtn smGlobalBtn" href="https://www.instagram.com/motion2hell/" ></a>
+            <a class="tumblrBtn smGlobalBtn" href="8898887276" ></a>
+            <a class="rssBtn smGlobalBtn" href="#" ></a>
+          </div>
+       
+          </div>
+       
+          </footer>
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,352 @@
+ <!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>motion2hell</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/core-img/favicon.jpeg" type="image/gif" sizes="16x16">
+
+
+    
+</head>
+<body>
+<header class="header">
+        <nav class="navbar">
+            <a class="logo" href="./index.html">
+
+                <img class="logo-blanc"  src="img/core-img/Motion2hell-logo.png" alt="Logo NTS Design">
+            </a>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./index.html">Team</a></li>
+                <li><a href="./index.html">services</a></li>
+                <!-- <li><a href="#">Gallery</a></li> -->
+                <li><a href="./index.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="./index.html">Admin_LogIn</a></li>
+                <!-- <li><a href="#">About</a></li> -->
+                <li><a href="#search"  onclick="openSearch()"><i class="fa fa-search"></i></a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </nav>
+
+          <div class="galleryContainer">
+    <div class="slideShowContainer">
+        
+        <div onclick="plusSlides(-1)" class="nextPrevBtn leftArrow"><span class="arrow arrowLeft"></span></div>
+        <div onclick="plusSlides(1)" class="nextPrevBtn rightArrow"><span class="arrow arrowRight"></span></div>
+        <div class="captionTextHolder"><p class="captionText slideTextFromTop" style="display: block;"></p></div>
+        <div class="imageHolder moveLeftNextSlide" style="opacity: 0;">
+            <img src="img/bg-img/photograher.jpg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder" style="opacity: 0;">
+            <img src="img/bg-img/Developer.jpg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder" style="opacity: 0;">
+            <img src="img/bg-img/coder.jpg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder" style="opacity: 0;">
+            <img src="img/bg-img/tester.jpg">
+            <p class="captionText"></p>
+        </div>
+        <div class="imageHolder moveLeftCurrentSlide" style="opacity: 0;">
+            <img src="img/bg-img/coder.jpg">
+            <p class="captionText"></p>
+        </div>
+    </div>
+    <div id="dotsContainer"><span class="dots active" onclick="moveSlide(0)"></span><span class="dots" onclick="moveSlide(1)"></span><span class="dots" onclick="moveSlide(2)"></span><span class="dots" onclick="moveSlide(3)"></span></div>
+    </div>
+        
+<div class='container2'>
+  <p class='typewriter'>I'm a 
+  <span class='typewriter-text' data-text='[ "KANHAIYA KHANSARE","Developer" ,"Tester"]'></span>
+  </p>
+</div>
+
+<div><p  class="tipsy">Motion2Hell</p></div>
+    </header>
+    
+
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+  
+    <!-- Left Column -->
+    <div class="w3-third">
+    
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+          <img src="img/bg-img/19.jpg" style="width:100%" alt="Avatar">
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+            
+          </div>
+        </div>
+        <div class="w3-container">
+          <h2>KANHAIYA KHANSARE</h2>
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Developer</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Chembur Mumbai</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>kkhansare@gmail.com</p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>8898887276</p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+          <p></p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+          </div>
+          <p>Web developing</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
+              <div class="w3-center w3-text-white">80%</div>
+            </div>
+          </div>
+          <p>Software Testing</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <p>Desiging</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+          </div>
+          <p>M.S Office   </p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:70%">70%</div>
+          </div>
+            <p>Automation with Flash </p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">50%</div>
+          </div>
+           <p>Seteup Installetion</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">80%</div>
+          </div>
+          <p>Python</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:65%">65%</div>
+          </div>
+          <p>CSS,HTNL & Bootstrap</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+          </div>
+          <p>Mysql , Oracal & RDBMS</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:55%">55%</div>
+          </div>
+          <p>Hardware Skill</p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:95%">95%</div>
+          </div>
+          <p>Operating System </p>
+          <div class="w3-light-grey w3-round-xlarge w3-small">
+            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">75%</div>
+          </div>
+          <br>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:75%"></div>
+          </div>
+          <p>Hindi</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
+          </div>
+          <p>Marathi</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column --> 
+    </div>
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+    
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Front End Developer / Back End Developer</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>work on own project like motion2hell.com , study </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software Tester</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>sep 2018 - oct 2019</h6>
+                  <p>Software Test Engineer in “ADNAC BUSINESS SOLUTIONS LLP” ( Manual Testing and Automation Testing )
+                <p>Tested software & Application:-  
+            HR_Fast (Mobile / Web) , DDSM (Mobile and Web) 
+            Pragya jewellery (Web only), Kara jewellery (Web only )
+            MACIL (Web only) , Polymath(Mobile)  , NuTock ( Mobile and Web ) Hotel  Application
+            (  I have best Test case  Excel  format  and  Bug / Defect report Excel Format  to      understand easily )
+        </p>
+        </p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>SAP system Data operator</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan2012 - Nov 2013</h6>
+          <p>
+              Manage and Operat all food vihical transport data in Reliance Fresh Pvt.Ltd food transport Department at juhinagar navimubai  </p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>M.SC  (Information Technology) </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2019 - 2021</h6>
+          <p>University department of information technology</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>B.Sc (information technology)</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2016</h6>
+          <p></p>
+          <hr>
+        </div>
+        
+      </div>
+            <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Other  Certified  Course </h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Software testing </b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016 - 2017</h6>
+          <p>1.I have done Software Testing class at Garware Institute of Career Education and  Development (2018)
+            <p>2.  Manual Testing<p>
+            <p>3. Automation testing  ( I am use core java for selenium  Web driver  ) <p>
+            <p>2. M.S Office   (2010)   [ Anubhav Institute ]<p>
+             <p>3.  MSCIT          (2010)   [ Anubhav Institute <p>
+              <p>4.  Diploma in  MS-office ,  Automation with Flash   (2010) [ Anubhav Institute ]<p>
+            
+          </p>
+          <hr>
+        </div>
+        <!-- <div class="w3-container">
+          <h5 class="w3-opacity"><b>B.Sc (information technology)</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2016</h6>
+          <p></p>
+          <hr>
+        </div> -->
+          <div class="social-info">
+                            <a href="https://www.facebook.com/motion2hell/"><i class="ti-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/motion2hell/?hl=en"><i class="ti-instagram" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-twitter-alt" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-linkedin" aria-hidden="true"></i></a>
+                            <a href="#"><i class="ti-pinterest" aria-hidden="true"></i></a>
+                        </div>
+    
+
+    <!-- End Right Column -->
+    </div>
+    
+  <!-- End Grid -->
+  </div>
+  
+  <!-- End Page Container -->
+</div>
+    
+    
+
+    <!-- <div class="container">
+    <div class="innerwrap"> -->
+      
+    
+      
+    
+      <!-- <section class="section1 clearfix">
+
+      </section>
+     -->
+      <section class="section2 clearfix" id="contact">
+                <div class="textcenter">
+          <h1 style="padding-bottom: 15px">Contact Us</h1>
+        </div>
+        <div class="col2 column1 first">
+          <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div class="sec2map" style='overflow:hidden;height:500px;width:100%; object-fit: cover;
+    border-radius: 50%;'><div id='gmap_canvas' style='height:100%;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">                  embed google maps             </a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(18.930710,73.021042),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(18.930710,73.021042)});infowindow = new google.maps.InfoWindow({content:'<strong>My Location</strong><br>mumbai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        </div>
+        <div class="col2 column2 last">
+          <div class="sec2innercont">
+            <div class="sec2addr">
+              <p>Dist Raigad Taluka Uran Village Jasai Near Syndicate Bank Pincode 410206</p>
+              <p><span class="collig">Phone :</span>+91-8898693657/+91-8898887276</p>
+              <p><span class="collig">Email :</span> official@motion2hell.com</p>
+              <p><span class="collig">WhatsApp :</span>+91-8898693657/+91-8898887276</p>
+            </div>
+          </div>
+          <div class="sec2contactform">
+            <h3 class="sec2frmtitle">Want to Know More?? Drop Us a Mail</h3>
+            <form action="">
+              <div class="clearfix">
+                <input class="col2 first" type="text" placeholder="FirstName">
+                <input class="col2 last" type="text" placeholder="LastName">
+              </div>
+              <div class="clearfix">
+                <input  class="col2 first" type="Email" placeholder="Email">
+                <input class="col2 last" type="text" placeholder="Contact Number">
+              </div>
+              <div class="clearfix">
+                <textarea name="textarea" id="" cols="30" rows="7">Your message here...</textarea>
+              </div>
+              <div class="clearfix"><input type="submit" value="Send"></div>
+            </form>
+          </div>
+
+        </div>
+      </section>
+    
+    <!-- </div>
+  </div> -->
+
+
+      <footer class="footer-distributed">
+       
+          <div class="footer-left">
+       
+          <h3>Motion<span>2Hell</span></h3>
+          <p class="footer-company-name">Motion2Hell &copy; 2020</p>
+          </div>
+       
+
+       
+      <div class="footer-bottom">
+       
+      <!--Facebook-->
+      <div id="social">
+            <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/motion2hell" ></a>
+            <a class="twitterBtn smGlobalBtn" href="#" ></a>
+            <a class="linkedinBtn smGlobalBtn" href="https://www.linkedin.com/in/karan-suryavanshi-a8a56011b/" ></a>
+            <a class="pinterestBtn smGlobalBtn" href="https://www.instagram.com/motion2hell/" ></a>
+            <a class="tumblrBtn smGlobalBtn" href="8898887276" ></a>
+            <a class="rssBtn smGlobalBtn" href="#" ></a>
+          </div>
+       
+          </div>
+       
+          </footer>
+        
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</body>
+
+</html>
